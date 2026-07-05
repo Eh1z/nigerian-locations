@@ -1,4 +1,4 @@
-# Naija Locations
+# Nigerian Locations
 
 A lightweight JavaScript and TypeScript library that provides comprehensive Nigerian location data, including states, Local Government Areas (LGAs), and cities.
 
@@ -23,25 +23,25 @@ Perfect for forms, address selectors, validation, dashboards, and any applicatio
 Using npm:
 
 ```bash
-npm install naija-locations
+npm install @eh1z/nigerian-locations
 ```
 
 Using Yarn:
 
 ```bash
-yarn add naija-locations
+yarn add @eh1z/nigerian-locations
 ```
 
 Using pnpm:
 
 ```bash
-pnpm add naija-locations
+pnpm add @eh1z/nigerian-locations
 ```
 
 Using Bun:
 
 ```bash
-bun add naija-locations
+bun add @eh1z/nigerian-locations
 ```
 
 ---
@@ -57,7 +57,7 @@ import {
   getLocalGovernmentByCity,
   getCitiesByState,
   getCities,
-} from "naija-locations";
+} from "@eh1z/nigerian-locations";
 
 const states = getAllStates();
 const lgas = getLocalGovernments("Abia");
@@ -81,7 +81,7 @@ const {
   getLocalGovernmentByCity,
   getCitiesByState,
   getCities,
-} = require("naija-locations");
+} = require("@eh1z/nigerian-locations");
 
 console.log(getAllStates());
 console.log(getLocalGovernments("Abia"));
@@ -235,7 +235,7 @@ If either the state or LGA cannot be found, an empty array is returned.
 
 # Use Cases
 
-Naija Locations is suitable for:
+Nigerian Locations is suitable for:
 
 * Address forms
 * Registration forms
