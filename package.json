@@ -1,6 +1,6 @@
 {
   "name": "@eh1z/nigerian-locations",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A lightweight JavaScript and TypeScript library providing Nigerian states, Local Government Areas (LGAs), cities, and other administrative location data.",
   "license": "MIT",
   "author": "Godsent Ehiz",
