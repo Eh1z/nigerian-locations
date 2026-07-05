@@ -1,0 +1,58 @@
+{
+  "name": "naija-locations",
+  "version": "1.0.1",
+  "description": "A lightweight JavaScript and TypeScript library providing Nigerian states, Local Government Areas (LGAs), cities, and other administrative location data.",
+  "license": "MIT",
+  "author": "Godsent Ehiz",
+  "homepage": "https://github.com/Eh1z/naija-locations",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eh1z/naija-locations.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Eh1z/naija-locations/issues"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "nigeria",
+    "naija",
+    "location",
+    "locations",
+    "state",
+    "states",
+    "lga",
+    "local-government",
+    "cities",
+    "administrative",
+    "geography",
+    "geo",
+    "javascript",
+    "typescript"
+  ],
+  "devDependencies": {
+    "@types/node": "^24.13.2",
+    "tsup": "^8.5.1",
+    "typescript": "^6.0.3"
+  }
+}
